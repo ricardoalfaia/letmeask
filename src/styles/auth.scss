@@ -51,13 +51,20 @@
        align-self: center;
      }
 
+     h2 {
+       font-size: 24px;
+       margin: 64px 0 24px;
+       color: var(--gray-2);
+       font-family: 'Poppins', sans-serif;
+     }
+
      form {
        input {
          height: 50px;
          border-radius: 8px;
          padding: 0 16px;
          background: var(--white);
-         border: 1px solid var(--gray-lt);
+         border: 1px solid var(--gray-1);
        }
 
        button {
@@ -67,7 +74,18 @@
        button, input {
          width: 100%;
        }
-     }    
+     }  
+     
+     p {
+       font-size: 14px;
+       color: var(--gray-3);
+       margin-top: 16px;
+
+       a {
+         color: var(--secondary);
+         margin-left: 8px;
+       }
+     }
    }
 
    .create-room {
@@ -98,7 +116,7 @@
 
    .separator {
     font-size: 14px;
-    color: var(--gray-lt);
+    color: var(--gray-1);
     margin: 32px 0;
     display: flex;
     align-items: center;
@@ -107,7 +125,7 @@
       content: '';
       flex: 1;
       height: 1px;
-      background: var(--gray-lt);
+      background: var(--gray-1);
       margin-right: 16px;
     }
 
@@ -115,7 +133,7 @@
       content: '';
       flex: 1;
       height: 1px;
-      background: var(--gray-lt);
+      background: var(--gray-1);
       margin-left: 16px;
     }
   }

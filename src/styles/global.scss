@@ -1,11 +1,13 @@
 :root {
   --primary: #835afd;
+  --secondary: #e559f9;
   --red: #ea4335;
   --white: #fff;
   --bg-main: #333;
   --light: #f8f8f8;
-  --gray-md: #29292e;
-  --gray-lt: #a8a8b3;
+  --gray-2: #29292e;
+  --gray-1: #a8a8b3;
+  --gray-3: #737380;
 }
 
 * {
@@ -16,7 +18,7 @@
 
 body {
   background-color: var(--bg-main);
-  color: var(--gray-md);
+  color: var(--gray-2);
 }
 
 body, input, button, textarea {
