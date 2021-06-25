@@ -1,0 +1,24 @@
+:root {
+  --primary: #835afd;
+  --red: #ea4335;
+  --white: #fff;
+  --bg-main: #333;
+  --light: #f8f8f8;
+  --gray-md: #29292e;
+  --gray-lt: #a8a8b3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--gray-md);
+}
+
+body, input, button, textarea {
+   font: 400 16px 'Robot', sans-serif; 
+}
